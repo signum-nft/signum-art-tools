@@ -1,0 +1,37 @@
+{
+  "name": "signum-art-cli",
+  "version": "1.0.0",
+  "description": "A command line tool for recurring tasks in signumart.io environment",
+  "main": "index.js",
+  "bin": {
+    "signumart": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/signum-nft/signum-art-tools.git"
+  },
+  "keywords": [
+    "signumart",
+    "nft",
+    "blockchain",
+    "signum"
+  ],
+  "author": "ohager",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/signum-nft/signum-art-tools/issues"
+  },
+  "homepage": "https://github.com/signum-nft/signum-art-tools#readme",
+  "dependencies": {
+    "@signumjs/core": "^1.0.0-rc.8",
+    "@signumjs/crypto": "^1.0.0-rc.8",
+    "@signumjs/http": "^1.0.0-rc.8",
+    "@signumjs/util": "^1.0.0-rc.8",
+    "commander": "^8.3.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.2.0"
+  }
+}

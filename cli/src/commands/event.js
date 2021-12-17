@@ -32,7 +32,7 @@ async function confirm(params) {
     {
       type: 'input',
       name: 'address',
-      message: 'Please enter the address of the recipient',
+      message: 'Please enter the address of the beneficiary',
       when: () => needAddress
     },
     {
@@ -125,6 +125,6 @@ async function event(params) {
 }
 
 module.exports = {
-  event,
+  event: event,
   ContractMethods
 }

@@ -4,7 +4,8 @@
   "description": "A command line tool for recurring tasks in signumart.io environment",
   "main": "index.js",
   "bin": {
-    "signumart": "./cli.js"
+    "signumart": "./signumart.js",
+    "signumart-event": "./signumart-event.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
